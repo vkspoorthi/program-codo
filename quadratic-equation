@@ -1,0 +1,24 @@
+#include<stdio.h>
+int a,x,b,c,d;
+void input()
+{
+ 
+scanf(%d %d,&a,&b,&c,&x);
+}
+void compute()
+{
+d=a*x*x+b*x+c;
+}
+void output()
+{
+if(d==0)
+printf("all the roots are possible%d",d);
+ else 
+printf("not possible");
+}
+void main()
+{
+input(p1,p2,p3,p4);
+compute();
+output ();
+}
